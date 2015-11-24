@@ -1,0 +1,158 @@
+
+
+html {
+    height: 100%;
+}
+
+body {
+/*    background-image: url(../img/uuLogo.png);
+    background-repeat: no-repeat;
+    background-size: .5%;
+    background-color: #DFDFFA;
+    background-position: center 300px;*/
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+
+}
+
+a {
+  color: #00005c;
+}
+
+#titlebar {
+  color: #333;
+  font-size: 2.75rem;
+  text-align: center;
+}
+
+.button {
+  border-radius: 5%;
+  background-color: #333; 
+}
+
+.logo {
+  padding: 8px;
+}
+
+.panel {
+  background-color: #858585;
+}
+
+.breadcrumbs {
+  color: #fff;
+  background-color: #333;
+}
+
+.breadcrumbs > * a {
+  color: #fff; 
+}
+
+#slyder {
+  padding-top:40px;
+  padding-bottom: 15px;
+}
+
+#slyderLink {
+  color: white;
+}
+
+#SlideSize {
+  height: 300px;
+  width: 1000px;
+}
+
+#headline {
+  text-align: center;
+}
+
+.bcCss > * {  
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+#threeChurches {
+    color: #333;
+    position: relative;
+    top: 15px;
+    border: 2px solid #333;
+    text-align: center;
+   /* padding: 25px;*/
+}
+
+#firstUpic, #cliftonUpic, #tjUpic {
+  margin-top: 55px;
+  opacity: 0.75;
+  border-radius: 5%;
+}
+
+#cliftonUpic {
+  min-width: 80%;
+}
+
+
+.btnBox {
+  margin: 10px;
+}
+
+.button {
+  margin: 2px;
+
+}
+
+#firstU, #cliftonU, #tjU, #about {
+  border: 2px solid #333;
+  text-align: left;
+  padding: 10px;
+}
+
+.aboutUU p, .aboutUU li{
+  font-size: 1.2rem;
+}
+
+
+
+.socialIcon {
+  max-height: 5rem;
+}
+
+#footer {
+  border: 2px solid #333;
+  text-align: center;
+  padding: 10px;
+}
+
+#copy {
+  text-align: left;
+  padding: 10px;
+}
+
+
+/* ================iframe In the News==================*/
+
+iframe {
+  width: 1400px; 
+  height: 400px; 
+  margin: 25px
+  border: 2px solid #333;
+  padding: 10px;
+}
